@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+
+    <!--Release Note-->
+    <string name="release_note_title">アップデート情報</string>
+    <string name="release_note">**0.2.1.161212_1_d_h2\n
+        -Modify layout\n
+        -Fix zenPhone c and htc 626 crash(Need to reply)\n
+        -Add button for fix gone photo in diary in setting page\n\n
+        **0.2.1.161208_01_d_h**\n
+        -Fix and support status bar transparent on Android 6.0+\n
+        (If your devices is Android 6.0+ ,please set profile banner again.)\n
+        -Fix profile picture bug\n
+        -support sort Simplified Chinese in contacts(By XF-zhjnc)\n\n
+        **0.2.1.161207_01_d**\n
+        -Try to fix UI and select photo issues on Miui,Flyme and old android version(help me to check it)\n
+        -Support profile picture\n
+        -Fix some wrong translation(Thanks for puhitaku)\n
+        -Fix bug
+    </string>
+    <string name="release_note_close_remind">再表示しない</string>
+    <!--init-->
+    <string name="init_message">データを更新中です。MyDiaryを閉じないでください。</string>
+
+    <!--Profile-->
+    <string name="profile_username_taki">立花　瀧</string>
+    <string name="profile_username_mitsuha">宮水　三葉</string>
+    <string name="toast_change_theme">テーマを切り替え中&#8230;</string>
+    <string name="your_name_is">君の名は</string>
+
+    <!--Topic detail-->
+    <string name="topic_detail_name">トピック</string>
+    <string name="topic_detail_text_color">テキストの色</string>
+    <string name="topic_dialog_delete_title">削除</string>
+    <string name="topic_dialog_delete_content">この %1$s を削除しますか?</string>
+
+    <string name="toast_topic_empty">トピックは空です</string>
+    <string name="topic_topic_bg_fail">背景の変更に失敗しました&#8230;</string>
+
+    <string name="topic_detail_current_bg">トピックの背景</string>
+    <string name="topic_detail_default_bg">デフォルトの背景</string>
+
+    <!--Dialog -->
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_call">発信</string>
+    <string name="dialog_button_cancel">キャンセル</string>
+    <string name="dialog_button_delete">削除</string>
+
+    <string name="process_dialog_loading">読み込み中&#8230;</string>
+    <string name="process_dialog_saving">保存中&#8230;</string>
+
+    <!--Diary Activity-->
+    <string name="segmented_entries">項目</string>
+    <string name="segmented_calendar">カレンダー</string>
+    <string name="segmented_Diary">日記</string>
+    <string name="diary_back_message">編集中の日記を破棄してもよろしいですか？</string>
+
+    <!--Entries -->
+    <string name="entries_count">%1$d 項目</string>
+    <string name="entries_edit_view">編集したい日記を選んでください</string>
+    <string name="entries_edit_dialog_delete_content">この日記を削除しますか?</string>
+    <string name="entries_summary_photo">**写真**</string>
+
+    <!--Diary -->
+    <string name="diary_no_location">位置情報が取得できません</string>
+    <string name="diary_location_permission_title">許可</string>
+    <string name="diary_location_permission_content">位置情報へのアクセス許可が必要です</string>
+    <string name="diary_photo_permission_content">写真へのアクセス許可が必要です</string>
+
+    <string name="diary_title_hint">タイトル</string>
+    <string name="diary_content_hint">タップして日記本文を記入</string>
+
+    <string name="diary_no_title">タイトルなし</string>
+
+    <string name="toast_diary_empty">日記の本文がありません</string>
+    <string name="toast_refashioning">位置情報を取得します</string>
+    <string name="toast_not_image">ファイルは写真ではありません</string>
+    <string name="toast_photo_path_error">写真のパスに問題があります</string>
+    <string name="toast_photo_intent_error">写真の読み込みに失敗しました</string>
+    <string name="toast_max_photo">追加できる写真は%1$d枚までです</string>
+    <string name="toast_space_insufficient">空き容量が不足しています</string>
+    <string name="toast_diary_update_successful">日記の更新に成功しました</string>
+    <string name="toast_diary_update_fail">日記の更新に失敗しました</string>
+    <string name="toast_diary_insert_successful">日記が正常に追加されました</string>
+    <string name="toast_diary_insert_fail">日記の追加に失敗しました&#8230;</string>
+
+    <!--Diary Viewer edit-->
+    <string name="toast_diary_copy_to_edit_fail">写真の読み込みに失敗しました&#8230;</string>
+
+    <!--Memo-->
+    <string name="memo_item_add">項目を追加</string>
+    <string name="toast_memo_empty">メモは空です</string>
+
+    <!--Contacts-->
+    <string name="contacts_call_phone_permission_title">許可</string>
+    <string name="contacts_call_phone_permission_content">電話を発信する許可が必要です</string>
+    <string name="contacts_call_phone_no_call_function">お使いの端末は電話に出られません</string>
+
+    <string name="contacts_detail_edt_name">名前</string>
+    <string name="contacts_detail_edt_phone_number">電話番号</string>
+
+    <string name="toast_contacts_empty">連絡先はありません</string>
+
+    <!--About-->
+    <string name="about_title">情報</string>
+
+    <!--Setting-->
+    <string name="setting_theme_title">テーマ</string>
+    <string name="setting_theme_hint">テーマを選択</string>
+    <string name="setting_theme_main_color">メインカラー</string>
+    <string name="setting_theme_sec_color">サブカラー</string>
+    <string name="setting_theme_default_profile_bg">デフォルト\nカラーに戻す</string>
+    <string name="setting_theme_default_color">デフォルト\nカラーに戻す</string>
+    <string name="setting_theme_apply">適用</string>
+    <string name="setting_theme_profile_bg">プロフィールの背景</string>
+
+
+    <string name="setting_language_title">言語</string>
+    <string name="setting_language_hint">言語を選択</string>
+
+    <string name="toast_save_profile_banner_fail">プロフィールバナーの保存に失敗しました</string>
+    <string name="toast_crop_profile_banner_fail">プロフィールバナーの切り取りに失敗しました</string>
+    <string name="toast_save_profile_picture_fail">プロフィール写真の保存に失敗しました</string>
+    <string name="toast_crop_profile_picture_fail">プロフィール写真の切り取りに失敗しました</string>
+
+    <string name="setting_system_title">システム</string>
+    <string name="setting_system_fix_dir_hint">更新後に写真が消えたら、それをクリックして修正してください</string>
+    <string name="setting_system_fix_dir_button">写真を修正する</string>
+
+    <string name="toast_setting_successful">成功した</string>
+    <string name="toast_setting_wont_fix">何も修正する必要はありません</string>
+    <string name="toast_setting_fail">失敗します</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:id="@+id/LL_your_name_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/IV_your_name_profile_picture"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_person_picture_default"
+                    app:civ_border_color="@android:color/white"
+                    app:civ_border_width="2dp" />
+
+                <ImageView
+                    android:id="@+id/IV_your_name_profile_picture_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_cancel_black_24dp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/EDT_your_name_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@android:color/white"
+                android:gravity="center"
+                android:hint="@string/your_name_is"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/edittext_hint"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <Space
+                android:id="@+id/Space_your_name"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <com.kiminonawa.mydiary.shared.gui.MyDiaryButton
+                android:id="@+id/But_your_name_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/Space_your_name"
+                android:gravity="center"
+                android:text="@string/dialog_button_cancel"
+                android:textAllCaps="false" />
+
+            <com.kiminonawa.mydiary.shared.gui.MyDiaryButton
+                android:id="@+id/But_your_name_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Space_your_name"
+                android:gravity="center"
+                android:text="@string/dialog_button_ok"
+                android:textAllCaps="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
